@@ -1,0 +1,26 @@
+{
+  "name": "prestashop-starter-theme",
+  "version": "1.0.0",
+  "description": "A Starter Theme to help you develop a PrestaShop theme from scratch in no time.",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack",
+    "watch": "node_modules/.bin/webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrestaShop/StarterTheme.git"
+  },
+  "author": "We Are Legion <pub@prestashop.com>",
+  "license": "OSL",
+  "bugs": {
+    "url": "https://github.com/PrestaShop/StarterTheme/issues"
+  },
+  "homepage": "https://github.com/PrestaShop/StarterTheme#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.1"
+  }
+}
