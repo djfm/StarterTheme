@@ -42,7 +42,15 @@ body {
 }
 
 .header-nav {
-  float: right;
+  text-align: right;
+  background-color: #666;
+  margin-bottom: 20px;
+  font-size: 0;
+}
+
+.header-nav > * {
+  display: inline-block;
+  font-size: 1rem;
 }
 
 /* headings */
@@ -225,9 +233,28 @@ ul.product-labels li {
   cursor: default;
 }
 
-/* blocklanguages and blockcurrencies */
+/* blocklanguages and blockcurrencies + userinfo */
 
-[class*="-selector"] {
+.language-selector {
+  width: 200px;
+  text-align: center;
+}
+
+.user-info {
+  font-size: 0;
+}
+
+.user-info > * {
+  font-size: 1rem;
+}
+
+.user-info a, .user-info a:visited, .user-info a:hover {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+[class*="-selector"], .user-info a {
   display: inline-block;
   position: relative;
   border: 1px solid #ccc;
