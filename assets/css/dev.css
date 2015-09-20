@@ -86,13 +86,24 @@ h2, .h2 {
 .cart-preview .body {
   display: none;
   width: 400px;
+  background-color: white;
+  right: 0;
 }
 
 .cart-preview:hover .body {
   display: block;
   position: absolute;
-  background-color: white;
-  right: 0;
+}
+
+.cart-preview.cart-summary {
+  width: 100%;
+  position: inherit;
+}
+
+.cart-preview.cart-summary .body {
+  display: block;
+  position: inherit;
+  width: 100%;
 }
 
 .cart-preview .header > :first-child {
