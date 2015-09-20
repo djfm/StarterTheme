@@ -29,7 +29,7 @@
 
     <!-- Load JS files here -->
     {block name="scripts"}
-        <script src="{$theme_assets_url}/js/theme.js"></script>
+        <script src="{$urls.theme_assets}/js/theme.js"></script>
     {/block}
 
   </body>
